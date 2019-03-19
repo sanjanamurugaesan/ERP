@@ -1,0 +1,14 @@
+ .header {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+ }
+ .header1 {
+    border: 1px solid #0a0744e6;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+    background-color: #0a0744e6;
+    border-radius: 5px;
+ }

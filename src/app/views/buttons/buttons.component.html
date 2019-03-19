@@ -1,0 +1,201 @@
+<style>
+    .table1 {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .td1, .th1 {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    .tr1:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+<div class="card-header" style=" background-color: #0a0744e6; margin-top:-20px">
+    <strong style="color: white;font-family: Times New Roman, Times, serif;font-size: 16px;">PAYROLL</strong>
+    
+    <!--<span style="color: white;font-family:Verdana, Geneva, sans-serif;;font-size: 16px;"> PAYROLL </span>-->
+    <div class="row align-items-left mt-10" style="margin-top:10px">
+        <div class="col-12 col-xl mb-3 mb-xl-0">
+          <strong style="color: white;font-family: Times New Roman, Times, serif;font-size: 14px;">
+              <button type="button" >  Run Payroll </button> </strong>
+          </div>
+          <div class="col-12 col-xl mb-3 mb-xl-0">
+              <strong style="color: white;font-family: Times New Roman, Times, serif;font-size: 14px;"> 
+                  <button type="button" style="margin-left: -150px;"> Salary Structure </button></strong>
+          </div>
+          <div class="col-12 col-xl mb-3 mb-xl-0">
+              <strong style="color: white;font-family: Times New Roman, Times, serif;font-size: 14px;">
+                  <button type="button" style="margin-left: -280px;"> Declaration </button> </strong>
+          </div>
+          <div class="col-12 col-xl mb-3 mb-xl-0">
+              <strong style="color: white;font-family: Times New Roman, Times, serif;font-size: 14px;"> 
+                  <button type="button" style="    margin-left: -435px;"> Settings </button> </strong>
+          </div>
+    </div>
+    
+</div>
+
+<div class="animated fadeIn">
+  <div class="card">
+      
+    <div class="card-header">
+      <strong>Payroll Summary</strong>
+    </div>
+    <div class="card-body">
+        <div class="card-header">
+            <strong style="color: white;font-family: Times New Roman, Times, serif;font-size: 14px;"> 
+                <button type="button"> Salary Structure </button></strong>
+                <strong style="color: white;font-family: Times New Roman, Times, serif;font-size: 14px;"> 
+                    <button type="button"> Pay Days Calculation </button></strong>
+          </div>
+      
+          <div class="card-body">
+              <table>
+                <tr>
+                  <td> Pay Frequency</td>
+                  <td> &nbsp; &nbsp; Monthly</td>
+                  <td><table class="table1">
+                      <tr class="tr1">
+                          <th class="th1">Company</th>
+                          <th class="th1">Contact</th>
+                          <th class="th1">Country</th>
+                        </tr>
+                        <tr class="tr1">
+                          <td class="th1">Alfreds Futterkiste</td>
+                          <td class="th1">Maria Anders</td>
+                          <td class="th1">Germany</td>
+                        </tr>
+                  </table></td>
+                </tr>
+
+                <br>
+                <tr>
+                    <td> Pay Cycle</td>
+                    <td> &nbsp; &nbsp; From 1st to 31st</td>
+                  </tr>
+                  <br>
+                     <tr>
+                        <td> Payroll leave and attendance input cycle</td>
+                        <td> &nbsp; &nbsp; From 1st to 31st</td>
+                      </tr>
+                      <br>
+                      <tr>
+                          <td> Payout date</td>
+                          <td> &nbsp; &nbsp; 31st Day of the Month</td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td> Payroll DOJ Cut Off Date for New joinees</td>
+                            <td> &nbsp; &nbsp; 2th Day of the Month</td>
+                          </tr>
+                          <br>
+              </table>
+            
+            <br>
+           
+
+            </div>
+      <!--<div class="row align-items-center">
+        <div class="col-12 col-xl mb-3 mb-xl-0">
+          Normal
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-primary">Primary</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-secondary">Secondary</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-success">Success</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-warning">Warning</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-danger">Danger</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-info">Info</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-light">Light</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-dark">Dark</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-link">Link</button>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3">
+        <div class="col-12 col-xl mb-3 mb-xl-0">
+          Active State
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-primary active" aria-pressed="true">Primary</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-secondary active" aria-pressed="true">Secondary</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-success active" aria-pressed="true">Success</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-warning active" aria-pressed="true">Warning</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-danger active" aria-pressed="true">Danger</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-info active" aria-pressed="true">Info</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-light active" aria-pressed="true">Light</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-dark active" aria-pressed="true">Dark</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-link active" aria-pressed="true">Link</button>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3">
+        <div class="col-12 col-xl mb-3 mb-xl-0">
+          Disabled
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-primary" disabled>Primary</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-secondary" disabled>Secondary</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-success" disabled>Success</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-warning" disabled>Warning</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-danger" disabled>Danger</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-info" disabled>Info</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-light" disabled>Light</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-dark" disabled>Dark</button>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-xl mb-3 mb-xl-0">
+          <button type="button" class="btn btn-block btn-link" disabled>Link</button>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  
